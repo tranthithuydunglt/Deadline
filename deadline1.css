@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+
+body{
+  background-color: rgb(215, 55, 55);
+  width: 1440px;
+  
+ 
+
+flex-direction: column;
+align-items: flex-start;
+}
+  
+ .menu{
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  width: 1440px;
+  height: 814px;
+  padding-top:207px ;
+  background-image: url('BG\ 2.png'); 
+  background-size: cover;
+  
+  
+
+  
+ } 
+  
+  
+  .header {
+    display: flex;
+    width: 1440px;
+    padding-top: 207px;
+    padding-bottom: 503px;
+   top:0;
+   left:0;
+    justify-content: space-between;
+    
+align-items: center;
+background: linear-gradient(90deg, rgba(12, 9, 28, 0.01) 0%, rgba(12, 9, 28, 0.01) 100%);
+backdrop-filter: blur(6px);
+  }
+
+  .logo {
+    width: 118.67px;
+height: 48.608px;
+flex-shrink: 0;
+background-color: black;
+padding-top: 27.5px;
+padding-left:112px;
+  }
+  .right {
+    display: flex;
+    padding-top: 28px;
+padding-left:890px;
+    
+    
+  }
+.right > * {
+  display: flex;
+padding: 12px;
+
+align-items: flex-start;
+color: #FFF;
+font-family: "Fz Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.right > :last-child {
+  display: flex;
+  padding: 8px 8px 8px 16px;
+  align-items: center;
+ 
+border-radius: 4px;
+border: 0.5px solid #FFF;
+color: #FFF;
+font-family: "Fz Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.logo{
+  display: flex;
+width: 130px;
+height: 49px;
+padding: 0.034px 11.33px 0.358px 0px;
+align-items: center;
+flex-shrink: 0;
+
+
+}
+
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .icon:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hero{
+  position: relative; 
+  max-width: 1440px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  bottom:0;
+}
+
+  .text{
+    color: #FFF;
+    align-self: stretch;
+font-family: "Fz Poppins";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: absolute;
+background: linear-gradient(90deg, rgba(12, 9, 28, 0.01) 0%, rgba(12, 9, 28, 0.01) 100%);
+backdrop-filter: blur(6px);
+padding: 0px 112px 199px 87px;
+  }
+
+.keyword{
+  font-family: "Fz Poppins";
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: linear-gradient(169deg, #00FFEA -4.02%, #0080FF 97.01%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+align-self: stretch;
+padding: 136px 994px 87px 112px;
+
+
+}
+
+
+  
+
+
+   
+
+
+
+  
